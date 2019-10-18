@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# ln -sf /bin/bash /bin/sh
+ln -sf /bin/bash /bin/sh
 apt install binutils \
             coreutils \
             build-essential \
