@@ -2,6 +2,8 @@ alias vim="nvim"
 alias ll="ls -la"
 alias l="ls -l"
 
+PATH=$PATH:/usr/sbin
+
 # ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
