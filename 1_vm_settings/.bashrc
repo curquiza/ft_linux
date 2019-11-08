@@ -4,6 +4,14 @@ alias ll="ls -l"
 
 PATH=$PATH:/usr/sbin
 
+export LFS=/mnt/lfs
+
+# Mount :
+# $> mkfs -v -t ext4 /dev/<xxx>
+# $> export LFS=/mnt/lfs
+# $> mkdir -pv $LFS
+# $> mount -v -t ext4 /dev/<xxx> $LFS
+
 # ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
