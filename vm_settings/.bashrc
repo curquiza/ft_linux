@@ -1,6 +1,6 @@
 alias vim="nvim"
-alias ll="ls -la"
-alias l="ls -l"
+alias l="ls -la"
+alias ll="ls -l"
 
 PATH=$PATH:/usr/sbin
 
