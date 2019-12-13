@@ -1,6 +1,7 @@
 # ft_linux
+⚠️ Each time the VM is restarted:
 
-/!\ Each time the VM is restarted, check if the partition of 20G is mounted to `/mnt/lfs` ! 
+1) Check if the partition of 20G is mounted to `/mnt/lfs` ! 
 ``` bash
 $ mount -v -t ext4 <partition> $LFS
 ```
@@ -22,7 +23,9 @@ tmpfs           435M     0  435M   0% /run/user/1000
 /dev/sda5        19G  3.4G   15G  19% /mnt/lfs
 ```
 
-And then run:
+2) Do the mounts in [part 6](https://github.com/curquiza/ft_linux/tree/master/6_intall_softwares)
+
+3) And then run:
 ```bash
 $ chroot "$LFS" /usr/bin/env -i          \
     HOME=/root TERM="$TERM"            \
